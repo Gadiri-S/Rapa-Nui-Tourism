@@ -14,8 +14,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/styles/images/wallpaper13.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/styles/images/wallpaper13.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper13.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper13.jpg");
   background-size: cover;
   width: 100%;
   padding: 5%;
@@ -90,7 +90,7 @@ header .logo {
 }
 
 .card {
-  background: url("/styles/images/indonesia3.jpg");
+  background: url("../styles/images/indonesia3.jpg");
   background-size: cover;
   height: 170px;
   width: 170px;
@@ -124,7 +124,7 @@ header .logo {
 }
 
 .card-two {
-  background: url("/styles/images/rapa.jpg");
+  background: url("../styles/images/rapa.jpg");
   background-size: cover;
   height: 170px;
   width: 170px;
@@ -158,7 +158,7 @@ header .logo {
 }
 
 .card-three {
-  background: url("/styles/images/kano.jpg");
+  background: url("../styles/images/kano.jpg");
   background-size: cover;
   height: 170px;
   width: 170px;
@@ -265,8 +265,8 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/styles/images/wallpaper12.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/styles/images/wallpaper12.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper12.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper12.jpg");
   background-size: cover;
   width: 100%;
   padding: 5%;
@@ -297,7 +297,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
-  background: url("/styles/images/wallpaper17.jpg");
+  background: url("../styles/images/wallpaper17.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -329,7 +329,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
-  background: url("/styles/images/wallpaper18.jpg");
+  background: url("../styles/images/wallpaper18.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -361,7 +361,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 4 / 2;
-  background: url("/styles/images/wallpaper13.jpg");
+  background: url("../styles/images/wallpaper13.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -393,7 +393,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
-  background: url("/styles/images/wallpaper9.jpg");
+  background: url("../styles/images/wallpaper9.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -425,7 +425,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 3 / 2 / 4 / 3;
-  background: url("/styles/images/wallpaper8.jpg");
+  background: url("../styles/images/wallpaper8.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -457,7 +457,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 4 / 1 / 5 / 2;
-  background: url("/styles/images/wallpaper7.jpg");
+  background: url("../styles/images/wallpaper7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -489,7 +489,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 5 / 1 / 6 / 2;
-  background: url("/styles/images/wallpaper6.jpg");
+  background: url("../styles/images/wallpaper6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -521,7 +521,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 4 / 2 / 6 / 3;
-  background: url("/styles/images/wallpaper16.jpg");
+  background: url("../styles/images/wallpaper16.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -553,7 +553,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 6 / 1 / 7 / 2;
-  background: url("/styles/images/wallpaper2.jpg");
+  background: url("../styles/images/wallpaper2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -585,7 +585,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 6 / 2 / 7 / 3;
-  background: url("/styles/images/wallpaper15.jpg");
+  background: url("../styles/images/wallpaper15.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
