@@ -1,0 +1,623 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/styles/images/wallpaper13.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/styles/images/wallpaper13.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 25px;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo {
+  height: 50px;
+  width: 150px;
+}
+
+.explore {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 20vh;
+}
+
+.explore h1 {
+  font-size: 120px;
+  margin-left: 150px;
+}
+
+.pictures {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  margin-top: 10vh;
+}
+
+.pictures h1 {
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: url("/styles/images/indonesia3.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card p {
+  margin-top: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-two {
+  background: url("/styles/images/rapa.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-two p {
+  margin-top: 20px;
+}
+
+.card-two:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-three {
+  background: url("/styles/images/kano.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-three p {
+  margin-top: 20px;
+}
+
+.card-three:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-four {
+  background: url("/styles/images/australia.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-four p {
+  margin-top: 20px;
+}
+
+.card-four:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.body-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background: #5454e7;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 25px;
+  border: none;
+  font-family: 'Roboto';
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.search {
+  height: 20px;
+  width: 20px;
+}
+
+#containero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/styles/images/wallpaper12.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/styles/images/wallpaper12.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.pictures-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.one {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background: url("/styles/images/wallpaper17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.one:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.two {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background: url("/styles/images/wallpaper18.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.two:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.three {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 4 / 2;
+  background: url("/styles/images/wallpaper13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.three:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.four {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: url("/styles/images/wallpaper9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.four:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.five {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background: url("/styles/images/wallpaper8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.five:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.six {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("/styles/images/wallpaper7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.six:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.seven {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  background: url("/styles/images/wallpaper6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.seven:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.eight {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+  background: url("/styles/images/wallpaper16.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.eight:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nine {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 1 / 7 / 2;
+  background: url("/styles/images/wallpaper2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.nine:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.ten {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 2 / 7 / 3;
+  background: url("/styles/images/wallpaper15.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.ten:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  z-index: 99;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
