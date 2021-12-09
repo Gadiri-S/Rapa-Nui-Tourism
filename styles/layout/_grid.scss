@@ -1,0 +1,103 @@
+//Container for each page
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/wallpaper13.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+
+//Container Paris
+
+.container-paris {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/rapa-wallpaper.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+//Container Indonesia
+.container-indonesia { 
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/rapa-wallpaper.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.body-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+//Container picture page
+    #containero {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/wallpaper12.jpg') ;
+        background-size: cover;
+        //height: 100vh;
+        width: 100%;
+        padding: 2%;
+        box-sizing: border-box;
+    
+        h1 {
+            text-align: center;
+            font-size: 80px;
+            margin-bottom: 25px;
+        }
+    }
+    
+    
+    #containero-rapa {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/sunset.jpg') ;
+        background-size: cover;
+        //height: 100vh;
+        width: 100%;
+        padding: 2%;
+        box-sizing: border-box;
+    
+        h1 {
+            text-align: center;
+            font-size: 80px;
+            margin-bottom: 25px;
+        }
+    }
+    
+   
+    
+    
+    .pictures-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+        
+      
+    
+         

@@ -1,0 +1,198 @@
+//Container Rapa Nui
+
+
+#container-aus {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/australia1.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+
+#containero-aus {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/sunset.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 25px;
+    }
+}
+
+
+.one-aus { grid-area: 1 / 1 / 2 / 2;
+
+    background: url('../styles/images/australia1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    //height: 50vh;
+filter: brightness(80%);
+transition: transform 2s, filter 1.5s ease-in-out;
+transform-origin: center center;
+
+
+&:hover {
+    cursor: pointer;
+
+    transition: transform 2s, filter 1.5s ease-in-out;
+    filter: brightness(100%);
+    transform: scale(1.05);
+
+}
+
+}
+    .two-aus { grid-area: 1 / 2 / 2 / 3; 
+        background: url('../styles/images/australia2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+       // height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .three-aus { grid-area: 2 / 1 / 4 / 2;
+        background: url('../styles/images/australia3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        //height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .four-aus { grid-area: 2 / 2 / 3 / 3; 
+        background: url('../styles/images/australia4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .five-aus { grid-area: 3 / 2 / 4 / 3; 
+        background: url('../styles/images/australia5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;        
+
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .six-aus { grid-area: 4 / 1 / 5 / 2; 
+        background: url('../styles/images/australia6.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .seven-aus { grid-area: 5 / 1 / 6 / 2; 
+        background: url('../styles/images/australia7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .eight-aus { grid-area: 4 / 2 / 6 / 3;
+        background: url('../styles/images/australia8.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .nine-aus { grid-area: 6 / 1 / 7 / 2;
+        background: url('../styles/images/australia9.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05)} }
+
+    .ten-aus { grid-area: 6 / 2 / 7 / 3;
+        background: url('../styles/images/australia10.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+       // height: 50vh; 
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;    
+        overflow: hidden;
+
+        &:hover {
+            cursor: pointer;
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}

@@ -1,241 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper13.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper13.jpg");
-  background-size: cover;
-  width: 100%;
-  padding: 5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  margin-right: 25px;
-}
-
-header .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header .logo {
-  height: 50px;
-  width: 150px;
-}
-
-.explore {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
-  margin-top: 20vh;
-}
-
-.explore h1 {
-  font-size: 120px;
-  margin-left: 150px;
-}
-
-.pictures {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 2 / 2 / 3;
-  margin-top: 10vh;
-}
-
-.pictures h1 {
-  font-size: 50px;
-  margin-left: 150px;
-}
-
-.card-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.card {
-  background: url("../styles/images/indonesia3.jpg");
-  background-size: cover;
-  height: 170px;
-  width: 170px;
-  border-radius: 50%;
-  margin: 15px 10px  10px 0;
-  padding: 0;
-  text-align: center;
-  font-weight: bold;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  transition: transform 2s, filter 1.5s ease-in-out;
-  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-.card p {
-  margin-top: 20px;
-}
-
-.card:hover {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  transition: transform 2s, filter 1.5s ease-in-out;
-  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.card-two {
-  background: url("../styles/images/rapa.jpg");
-  background-size: cover;
-  height: 170px;
-  width: 170px;
-  border-radius: 50%;
-  margin: 15px 10px  10px 0;
-  padding: 0;
-  text-align: center;
-  font-weight: bold;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-.card-two p {
-  margin-top: 20px;
-}
-
-.card-two:hover {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.card-three {
-  background: url("../styles/images/kano.jpg");
-  background-size: cover;
-  height: 170px;
-  width: 170px;
-  border-radius: 50%;
-  margin: 15px 10px  10px 0;
-  padding: 0;
-  text-align: center;
-  font-weight: bold;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-.card-three p {
-  margin-top: 20px;
-}
-
-.card-three:hover {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.card-four {
-  background: url("../styles/images/australia.jpg");
-  background-size: cover;
-  height: 170px;
-  width: 170px;
-  border-radius: 50%;
-  margin: 15px 10px  10px 0;
-  padding: 0;
-  text-align: center;
-  font-weight: bold;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-.card-four p {
-  margin-top: 20px;
-}
-
-.card-four:hover {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out;
-  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.body-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
 button {
   height: 40px;
   width: 150px;
@@ -257,7 +19,32 @@ button:hover {
   width: 20px;
 }
 
-#containero {
+.arrow {
+  height: 50px;
+  width: 50px;
+  z-index: 99;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#container-rapa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,8 +52,25 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper12.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper12.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/rapa-wallpaper.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/rapa-wallpaper.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-rapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/sunset.jpg");
   background-size: cover;
   width: 100%;
   padding: 2%;
@@ -274,21 +78,327 @@ button:hover {
           box-sizing: border-box;
 }
 
-#containero h1 {
+#containero-rapa h1 {
   text-align: center;
   font-size: 80px;
   margin-bottom: 25px;
 }
 
-.pictures-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (1fr)[6];
-      grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+.one-rapa {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background: url("../styles/images/rapa2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.one-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.two-rapa {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background: url("../styles/images/rapa3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.two-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.three-rapa {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 4 / 2;
+  background: url("../styles/images/rapa4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.three-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.four-rapa {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: url("../styles/images/rapa10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.four-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.five-rapa {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background: url("../styles/images/rapa7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.five-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.six-rapa {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("../styles/images/rapa8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.six-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.seven-rapa {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  background: url("../styles/images/rapa13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.seven-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.eight-rapa {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+  background: url("../styles/images/rapa12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.eight-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nine-rapa {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 1 / 7 / 2;
+  background: url("../styles/images/rapa11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.nine-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.ten-rapa {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 2 / 7 / 3;
+  background: url("../styles/images/rapa5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  overflow: hidden;
+}
+
+.ten-rapa:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .one {
@@ -297,7 +407,7 @@ button:hover {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
-  background: url("../styles/images/wallpaper17.jpg");
+  background: url("../styles/images/lion.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-filter: brightness(80%);
@@ -328,7 +438,7 @@ button:hover {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
-  background: url("../styles/images/wallpaper18.jpg");
+  background: url("../styles/images/dame.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-filter: brightness(80%);
@@ -608,13 +718,1439 @@ button:hover {
           transform: scale(1.05);
 }
 
-.arrow {
-  height: 50px;
-  width: 50px;
-  z-index: 99;
+#container-guinea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/guinea2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/guinea2.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.arrow:hover {
+#containero-guinea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/sunset.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-guinea h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.one-guinea {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background: url("../styles/images/guinea1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.one-guinea:hover {
   cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.two-guinea {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background: url("../styles/images/guinea2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.two-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.three-guinea {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 4 / 2;
+  background: url("../styles/images/guinea3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.three-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.four-guinea {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: url("../styles/images/guinea6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.four-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.five-guinea {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background: url("../styles/images/guinea11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.five-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.six-guinea {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("../styles/images/guinea12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.six-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.seven-guinea {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  background: url("../styles/images/guinea8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.seven-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.eight-guinea {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+  background: url("../styles/images/guinea9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.eight-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nine-guinea {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 1 / 7 / 2;
+  background: url("../styles/images/guinea13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.nine-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.ten-guinea {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 2 / 7 / 3;
+  background: url("../styles/images/guinea14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  overflow: hidden;
+}
+
+.ten-guinea:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#container-indo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/indonesia1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/indonesia1.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-indo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/sunset.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-indo h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.one-indo {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background: url("../styles/images/indonesia2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.one-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.two-indo {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background: url("../styles/images/indonesia3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.two-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.three-indo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 4 / 2;
+  background: url("../styles/images/indonesia12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.three-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.four-indo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: url("../styles/images/indonesia5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.four-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.five-indo {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background: url("../styles/images/indonesia6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.five-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.six-indo {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("../styles/images/indonesia7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.six-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.seven-indo {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  background: url("../styles/images/indonesia8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.seven-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.eight-indo {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+  background: url("../styles/images/indonesia9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.eight-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nine-indo {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 1 / 7 / 2;
+  background: url("../styles/images/indonesia10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.nine-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.ten-indo {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 2 / 7 / 3;
+  background: url("../styles/images/indonesia11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  overflow: hidden;
+}
+
+.ten-indo:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#container-aus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/australia1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/australia1.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-aus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/sunset.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-aus h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.one-aus {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  background: url("../styles/images/australia1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.one-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.two-aus {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  background: url("../styles/images/australia2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.two-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.three-aus {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 4 / 2;
+  background: url("../styles/images/australia3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.three-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.four-aus {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: url("../styles/images/australia4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.four-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.five-aus {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+  background: url("../styles/images/australia5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.five-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.six-aus {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+  background: url("../styles/images/australia6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.six-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.seven-aus {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  background: url("../styles/images/australia7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.seven-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.eight-aus {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 6 / 3;
+  background: url("../styles/images/australia8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.eight-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nine-aus {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 1 / 7 / 2;
+  background: url("../styles/images/australia9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.nine-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.ten-aus {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 6 / 2 / 7 / 3;
+  background: url("../styles/images/australia10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  overflow: hidden;
+}
+
+.ten-aus:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper13.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper13.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-paris {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/rapa-wallpaper.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/rapa-wallpaper.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-indonesia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/rapa-wallpaper.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/rapa-wallpaper.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#containero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/wallpaper12.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/wallpaper12.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+#containero-rapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../styles/images/sunset.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../styles/images/sunset.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#containero-rapa h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.pictures-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 25px;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo {
+  height: 50px;
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.explore {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 20vh;
+  margin-right: 40px;
+}
+
+.explore h1 {
+  font-size: 120px;
+  margin-left: 150px;
+}
+
+.explore h2 {
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.pictures {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  margin-top: 10vh;
+}
+
+.pictures h1 {
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: url("../styles/images/indonesia3.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card p {
+  margin-top: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transition: transform 2s, filter 1.5s ease-in-out, -webkit-transform 2s, -webkit-filter 1.5s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-two {
+  background: url("../styles/images/rapa.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-two p {
+  margin-top: 25px;
+}
+
+.card-two:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-two-paris {
+  background: url("../styles/images/paris-wallpaper.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-two-paris p {
+  margin-top: 20px;
+}
+
+.card-two-paris:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-three {
+  background: url("../styles/images/kano.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-three p {
+  margin-top: 20px;
+}
+
+.card-three:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-four {
+  background: url("../styles/images/australia.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin: 15px 10px  10px 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.card-four p {
+  margin-top: 20px;
+}
+
+.card-four:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out;
+  transition: transform 2s, filter 1s ease-in-out, -webkit-transform 2s, -webkit-filter 1s ease-in-out;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=styles.css.map */

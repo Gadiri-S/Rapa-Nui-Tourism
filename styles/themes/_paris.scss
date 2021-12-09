@@ -1,0 +1,164 @@
+.one { grid-area: 1 / 1 / 2 / 2;
+            
+    background: url('../styles/images/lion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    //height: 50vh;
+filter: brightness(80%);
+transition: transform 2s, filter 1.5s ease-in-out;
+transform-origin: center center;
+
+
+&:hover {
+    cursor: pointer;
+
+    transition: transform 2s, filter 1.5s ease-in-out;
+    filter: brightness(100%);
+    transform: scale(1.05);
+
+}
+
+}
+    .two { grid-area: 1 / 2 / 2 / 3; 
+        background: url('../styles/images/dame.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .three { grid-area: 2 / 1 / 4 / 2;
+        background: url('../styles/images/wallpaper13.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        //height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .four { grid-area: 2 / 2 / 3 / 3; 
+        background: url('../styles/images/wallpaper9.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .five { grid-area: 3 / 2 / 4 / 3; 
+        background: url('../styles/images/wallpaper8.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;        
+
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .six { grid-area: 4 / 1 / 5 / 2; 
+        background: url('../styles/images/wallpaper7.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .seven { grid-area: 5 / 1 / 6 / 2; 
+        background: url('../styles/images/wallpaper6.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .eight { grid-area: 4 / 2 / 6 / 3;
+        background: url('../styles/images/wallpaper16.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .nine { grid-area: 6 / 1 / 7 / 2;
+        background: url('../styles/images/wallpaper2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05)} }
+
+    .ten { grid-area: 6 / 2 / 7 / 3;
+        background: url('../styles/images/wallpaper15.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+       // height: 50vh; 
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;    
+        overflow: hidden;
+
+        &:hover {
+            cursor: pointer;
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}

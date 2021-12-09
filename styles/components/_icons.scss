@@ -1,0 +1,14 @@
+.search {
+    height: 20px;
+    width: 20px;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    z-index: 99;
+    &:hover{
+        cursor: pointer;
+    }
+}
+

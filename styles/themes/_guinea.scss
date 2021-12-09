@@ -1,0 +1,195 @@
+#container-guinea {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/guinea2.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+
+#containero-guinea {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../styles/images/sunset.jpg') ;
+    background-size: cover;
+    //height: 100vh;
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 25px;
+    }
+}
+
+
+.one-guinea { grid-area: 1 / 1 / 2 / 2;
+
+    background: url('../styles/images/guinea1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    //height: 50vh;
+filter: brightness(80%);
+transition: transform 2s, filter 1.5s ease-in-out;
+transform-origin: center center;
+
+
+&:hover {
+    cursor: pointer;
+
+    transition: transform 2s, filter 1.5s ease-in-out;
+    filter: brightness(100%);
+    transform: scale(1.05);
+
+}
+
+}
+    .two-guinea { grid-area: 1 / 2 / 2 / 3; 
+        background: url('../styles/images/guinea2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+       // height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .three-guinea { grid-area: 2 / 1 / 4 / 2;
+        background: url('../styles/images/guinea3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        //height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .four-guinea { grid-area: 2 / 2 / 3 / 3; 
+        background: url('../styles/images/guinea6.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .five-guinea { grid-area: 3 / 2 / 4 / 3; 
+        background: url('../styles/images/guinea11.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;        
+
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .six-guinea { grid-area: 4 / 1 / 5 / 2; 
+        background: url('../styles/images/guinea12.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .seven-guinea { grid-area: 5 / 1 / 6 / 2; 
+        background: url('../styles/images/guinea8.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
+
+    .eight-guinea { grid-area: 4 / 2 / 6 / 3;
+        background: url('../styles/images/guinea9.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);} }
+
+    .nine-guinea { grid-area: 6 / 1 / 7 / 2;
+        background: url('../styles/images/guinea13.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+
+        &:hover {
+            cursor: pointer;
+
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05)} }
+
+    .ten-guinea { grid-area: 6 / 2 / 7 / 3;
+        background: url('../styles/images/guinea14.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+       // height: 50vh; 
+        filter: brightness(80%);
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;    
+        overflow: hidden;
+
+        &:hover {
+            cursor: pointer;
+            transition: transform 2s, filter 1.5s ease-in-out;
+            filter: brightness(100%);
+            transform: scale(1.05);}}
