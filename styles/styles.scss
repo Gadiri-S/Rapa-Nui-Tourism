@@ -202,7 +202,7 @@ li {
     background-size: cover;
     //height: 100vh;
     width: 100%;
-    padding: 5%;
+    padding: 2%;
     box-sizing: border-box;
 
     h1 {
@@ -223,10 +223,11 @@ li {
 }
     
     .one { grid-area: 1 / 1 / 2 / 2;
+        
     background: url('../styles/images/wallpaper17.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    //height: 50vh;
 filter: brightness(80%);
 transition: transform 2s, filter 1.5s ease-in-out;
 transform-origin: center center;
@@ -246,7 +247,7 @@ transform-origin: center center;
         background: url('../styles/images/wallpaper18.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 50vh;
+       // height: 50vh;
         filter: brightness(80%);
         transition: transform 2s, filter 1.5s ease-in-out;
         transform-origin: center center;
@@ -262,7 +263,7 @@ transform-origin: center center;
         background: url('../styles/images/wallpaper13.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100%;
+        //height: 100%;
         filter: brightness(80%);
         transition: transform 2s, filter 1.5s ease-in-out;
         transform-origin: center center;
@@ -375,11 +376,11 @@ transform-origin: center center;
         background: url('../styles/images/wallpaper15.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 50vh; 
+       // height: 50vh; 
         filter: brightness(80%);
         transition: transform 2s, filter 1.5s ease-in-out;
         transform-origin: center center;    
-
+        overflow: hidden;
 
         &:hover {
             cursor: pointer;
